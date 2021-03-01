@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Link3</title>
+</head>
+<body>
+<form method="post" action="">
+    <h2>revista abierta</h2>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <p>Nombre: <input type="text" name="nombre"></input> Primer apellido: <input type="text" name="ape1"></input><br/>Segundo apeliido <input type="text" name="ape2"></input></p>
+        <p>Direccion: <input type="text" name="direccion" value="calle o plaza, numero y tipo"/></p>
+        <p>e-mail:<input type="text" value="@"/></p>
+        <p>contraseña: <input type="password" name="contrasenia"/></p>
+        <p>sexo</p>
+        <input type="radio" name="sexo" value="v"/> Varón <br/>
+        <input type="radio" name="sexo" value="m"/> Mujer
+
+    </fieldset>
+    <fieldset>
+        <legend>Nivel de estudios e intereses</legend>
+        <p>Nivel de estudios</p>
+        <input type="radio" name="estudios" value="cs"/> Certificado Escolar<br/>
+        <input type="radio" name="estudios" value="ge"/> Graduado en E.S.O.<br/>
+        <input type="radio" name="estudios" value="bc"/> Bachiller - Formacion Profesional<br/>
+        <input type="radio" name="estudios" value="dp"/> Diplomado<br/>
+        <input type="radio" name="estudios" value="lc"/> Licenciado o Doctorado<br/>
+
+        <p>Recibir artículos sobre los siguientes temas:</p>
+        <input type="checkbox" name="music"/> Música <br/>
+        <input type="checkbox" name="sports"/> Deportes <br/>
+        <input type="checkbox" name="cine"/> Cine <br/>
+        <input type="checkbox" name="books"/> Libros <br/>
+        <input type="checkbox" name="science"/> Ciencia <br/>
+    </fieldset>
+    <fieldset>
+        <legend>Datos sobre la revista</legend>
+        <p>Frecuencia con la quue se recibirá la revista:</p>
+        <select name="frecuencia">
+            <option>semanal</option>
+            <option>quincenal</option>
+            <option>mensual</option>
+            <option>bimensual</option>
+        </select>
+        <p>Puedes mandar tu artículo sobre cualquier tema de los que tratamos. <br/>
+        Nosotros lo valoraremos para que pueda ser publicado.</p>
+        <br/> Mandar articulo <input type="file" name="archivo" value="Examinar..."/>
+        <br/><p>Si deseas mandar simplemente una opcion o comentario escríbelos aqui.</p>
+        <p><textarea rows="5" cols="50"> Escribe tu comentario: </textarea></p>
+    </fieldset>
+    <fieldset>
+        <legend>Comenzar de nuevo</legend>
+        <p align="justify"> Borrar todos los datos el formulario y volver a empezar <input type="reset" name="delete" value="borrar todo"/></p>
+    </fieldset>
+    <fieldset>
+        <legend>Enviar</legend>
+        <p align="justify"> Enviar formulario por correo electronico: Al pulsar en el botón se abrirá la pagina de envío de correo: en esa página pulsa en enviar: </p>
+        <input type="submit" name="listo" value="enviar por correo"/>
+    </fieldset>
+</form>
+</body>
+</html>
